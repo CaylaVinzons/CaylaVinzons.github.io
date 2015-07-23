@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Pompiere);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400);
 *{
   margin:0;
   padding:0;
@@ -6,7 +6,7 @@
 /*main*/
 body{
   background-color:SkyBlue;
-  font-family:Pompiere, cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   color:blue;
   font-size:30px;
 }
@@ -26,11 +26,12 @@ nav, div, ul, li, a, article, h1, p{
 nav{
   width:80%;
   height:30%;
-  padding:0px 50px;
+  padding:5px;
   margin-left:auto;
   margin-right:auto;
-  background-color:Salmon;
+  background-color:white;
   border-radius:20px;
+  margin-top:20px;
 }
 nav>div{
   float:left;
@@ -54,10 +55,38 @@ nav>ul>li>a{
 nav>ul>li>a:hover{
   color:white;
   background:black;
+  transition:2;
 }
 a:visited{
   color:blue;
 }
-#cvin{
-
+#circle1{
+  height:200px;
+  width:200px;
+  border-radius:200px;
+  background-color:#492938;
+  display:block;
+  float:left;
+  margin-left:20%;
+  margin-top:8%;
+}
+#circle2{
+  height:80px;
+  width:80px;
+  border-radius:200px;
+  background-color:#1534a5;
+  display:block;
+  float:left;
+  margin-left:5%;
+  margin-top:30%;
+}
+#circle3{
+  height:350px;
+  width:350px;
+  border-radius:200px;
+  background-color:#333333;
+  display:block;
+  float:left;
+  margin-left:10%;
+  margin-top:13%
 }
