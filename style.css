@@ -81,6 +81,9 @@ h1{
     transform: translate(-50%, -50%);
     float:right;
 }
+a{
+    float:top;
+}
 #first{
     margin-top:180px;
 }
