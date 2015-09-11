@@ -1,92 +1,87 @@
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400);
 *{
-  margin:0;
-  padding:0;
+    margin:0;
+    padding:0;
 }
-/*main*/
 body{
-  background-color:SkyBlue;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color:blue;
-  font-size:30px;
+    overflow:hidden;
 }
-.clearfix:after{
-  display:block;
-  clear:both; /*if things are floated, go below*/
-  content:"";
+
+h1{
+    font-size:1.0vw;
+    color:green;
+    font-family:sans-serif;
 }
-nav, div, ul, li, a, article, h1, p{
-  margin:0;
-  padding:0;
-  border:0;
-  background: transparent
-  vertical-align:baseline;
-  text-decoration: none;
+.wrapper{
+    height: auto !important;
+    height: 110%;
+    margin: 0 auto;
+    overflow: hidden;
+    transform:translate(-px, -2px);
 }
-nav{
-  width:80%;
-  height:30%;
-  padding:5px;
-  margin-left:auto;
-  margin-right:auto;
-  background-color:white;
-  border-radius:20px;
-  margin-top:20px;
+.bgimage {
+  position: absolute;
+  min-height: 110% !important;
+  width: 110%;
+  z-index: 0;
+  transform:translate(-5px, -5px);
 }
-nav>div{
-  float:left;
-  font-size:40px;
-  padding:10px 0px;
+.ibg-bgimage{
+    position:absolute;
 }
-nav>ul{
-  list-style-type:none;
+.mid{
+    float:left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    display:inline-block;
+    font-size:4.2vw;
+    color:#FFFFFF;
 }
-nav>ul>li{
-  float:right;
+#content > div{
+    color:#FFFFFF;
+    overflow:hidden;
+    postition:absolute;
 }
-nav>ul>li>a{
-  display:block;
-  font-size:30px;
-  padding:10px 20px;
-  text-decoration: none;
-  padding-bottom:25px;
-  /*border:solid;*/
+
+#marie{
+    margin-left:1.0vw;
 }
-nav>ul>li>a:hover{
-  color:white;
-  background:black;
-  transition:2;
+#vinzons{
+    margin-left:1.0vw;
 }
-a:visited{
-  color:blue;
+#comingsoon{
+    font-size:1vw;
 }
-#circle1{
-  height:200px;
-  width:200px;
-  border-radius:200px;
-  background-color:#492938;
-  display:block;
-  float:left;
-  margin-left:20%;
-  margin-top:8%;
+#allcontent{
+    position:fixed;
+    /*transform:translate()*/
 }
-#circle2{
-  height:80px;
-  width:80px;
-  border-radius:200px;
-  background-color:#1534a5;
-  display:block;
-  float:left;
-  margin-left:5%;
-  margin-top:30%;
+
+#content{
+    font-family:'Raleway', sans-serif;
+    opacity:1;
+    color:#FFFFFF;
+    height:auto;
+    width: auto;
+    padding:5px;
+    /*border:solid;*/
+    box-shadow: 5px -5px 2px #363636;
+    border-radius:5px;
+    position: fixed;
+    padding:10px 12px 0px 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float:left;
 }
-#circle3{
-  height:350px;
-  width:350px;
-  border-radius:200px;
-  background-color:#333333;
-  display:block;
-  float:left;
-  margin-left:10%;
-  margin-top:13%
+
+#sidebar{
+    position:absolute;
+    margin-left:80%;
+    height:70px;
+    width:200px;
+    border-radius:5px;
+    background-color:#FFFFFF;
+    /*border:white;*/
+    float:left;
+    /*transform:translate(-50%, -50%);*/
 }
