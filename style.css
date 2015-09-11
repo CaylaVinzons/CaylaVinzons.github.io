@@ -86,7 +86,7 @@ h1{
 }
 #sidebar{
     height:72%;
-    opacity:.9;
+    opacity:.8;
     width: auto;
     background-color:#FFFFFF;
     margin-top:50px;
@@ -94,7 +94,7 @@ h1{
     border-radius:200px;
     position: fixed;
     top: 8%;
-    left: 87%;
+    left: 86%;
     transform: translate(-50%, -50%);
     float:right;
 }
