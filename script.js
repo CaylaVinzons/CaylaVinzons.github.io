@@ -7,10 +7,13 @@ $(document).ready(function(){
        contain: true,
        wrapContent: false
    }); // function call
-   $('#content').css(
-       'opacity','1'
-   );
-   $('#ontentc').fadeIn();
+   $( "#content:hidden:first" ).fadeIn( 3000 );
+   $('#sidebar').slideDown();
+   $('a[data-mailto]').click(function(){
+  var link = 'mailto.html#mailto:' + $(this).data('mailto');
+  window.open(link, 'Mailer');
+  return false;
+});
 });
 
 
