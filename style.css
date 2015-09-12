@@ -79,7 +79,7 @@ body{
       height:30px;
   }
 }
-@media only screen and (max-width: 480) {
+@media only screen and (max-device-width: 480) {
   .mid {
     font-size: 30px;
   }
