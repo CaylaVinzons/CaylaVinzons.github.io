@@ -79,6 +79,19 @@ body{
       height:30px;
   }
 }
+@media only screen and (max-width: 480) {
+  .mid {
+    font-size: 30px;
+  }
+  #sidebar img{
+      width:30px;
+      height:30px;
+  }
+  #sidebar{
+      border-radius:0px;
+      height:100%;
+  }
+}
 /*Sidebar Content*/
 #sidebar img{
     display:block;
