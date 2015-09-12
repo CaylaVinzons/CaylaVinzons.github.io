@@ -63,8 +63,8 @@ body{
     border-radius:5px;
     position: fixed;
     padding:10px 12px 0px 12px;
-    top: 45%;
-    left: 45%;
+    top:30%;
+    left: 30%;
     transform: translate(-50%, -50%);
     float:right;
 }
