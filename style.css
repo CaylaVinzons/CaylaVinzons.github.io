@@ -83,8 +83,8 @@ body{
 #sidebar img{
     display:block;
     padding:.5vw;
-    max-height:55px;
-    max-width:55px;
+    height:55px;
+    width:55px;
 }
 /*#imgcontainer{
     position:absolute;
