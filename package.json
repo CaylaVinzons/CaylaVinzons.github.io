@@ -1,0 +1,32 @@
+{
+  "name": "caylavinzons",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": "jquery.fullPage.min.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaylaVinzons/CaylaVinzons.github.io.git"
+  },
+  "keywords": [
+    "Cayla",
+    "Vinzons",
+    "Personal",
+    "Site",
+    "CS",
+    "Computer",
+    "Science"
+  ],
+  "author": "Cayla Vinzons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaylaVinzons/CaylaVinzons.github.io/issues"
+  },
+  "homepage": "https://github.com/CaylaVinzons/CaylaVinzons.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}

@@ -1,132 +1,169 @@
 *{
-    margin:0;
+    marign:0;
     padding:0;
 }
-/*Background*/
-body{
-    overflow:hidden;
+/*********FONT AWESOME**************/
+.fa {
+    margin-left: 30px;
+    color:#252B7B;
 }
-.wrapper{
-    height: auto !important;
-    height: 110%;
-    margin: 0 auto;
-    overflow: hidden;
-    transform:translate(-px, -2px);
+/*********GENERAL SLIDE STUFF**************/
+.slide-footer { /*only arrow*/
+    width:100%;
+    text-align: center;
+    position: absolute;
+    margin-bottom:100px;
+    margin-left:-30px;
+    bottom:0;
 }
-.bgimage {
-  position: absolute;
-  min-height: 110% !important;
-  width: 110%;
-  z-index: 0;
-  transform:translate(-5px, -5px);
+.section {
+    padding:30px;
 }
-.ibg-bgimage{
-    position:absolute;
+.slide-title {
+    font-family: 'Montserrat-Light', sans-serif;
+    font-size:80px;
+    margin-bottom: 200px;
 }
-/*Center content*/
-.mid{
+.right {
+    text-align: right;
+}
+/*********SLIDE 1: LANDING #YOUMADEIT**************/
+.slide1 {
+    background:url('assets/nebulas.svg'),url('assets/stars.svg'),black;
+}
+.title {
+    font-family: 'Montserrat-Thin', sans-serif;
+    font-size:110px;
+    color:white;
+}
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size:35px;
+    text-align:right;
+    float:right;
+    margin-top:-200px;
+    margin-right:60px;
+}
+/*********SLIDE 2: INTRO #HIYAIMCAYLA**************/
+.slide2 {
+    background: linear-gradient(top, #C09AE9 0%, #9DCAE4 74%, #62BE9B 100%);
+    background: -webkit-linear-gradient(top, #C09AE9 0%, #9DCAE4 68%, #62BE9B 100%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(top, #C09AE9 73%, #9DCAE4 36%, #62BE9B 3%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #C09AE9 73%, #9DCAE4 36%, #62BE9B 3%); /* For Firefox 3.6 to 15 */
+}
+.whitesquare {
+    height:835px;
+    width:835px;
+    margin-left: auto;
+    margin-right: auto;
+    border:14px solid white;
+    padding:30px;
+}
+.text {
+    font-size:40px;
+    margin-bottom: 72px;
+    font-family:"Montserrat-Light",sans-serif;
+}
+.blue {
+    color:#252B7B;
+}
+.white {
+    color:#FFFFFF;
+}
+.label {
+    text-align:center;
+    margin:-60px;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+    font-size:200px;
+}
+.upside-down{
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+
+/***********SLIDE 3 #IDOTHINGS*************/
+.slide3 {
+    /* Path 10: */
+    background:  -webkit-linear-gradient(top, #FCEDED 0%, #C2E6F8 100%);
+    background: -o-linear-gradient(top, #C09AE9 73%, #9DCAE4 36%, #62BE9B 3%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, #C09AE9 73%, #9DCAE4 36%, #62BE9B 3%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top, #41B2EA 0%, #F7C4C4 100%);
+}
+.grey {
+    color:#474747;
+}
+.col {
     float:left;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-    display:inline-block;
-    font-size:4.2vw;
-    color:#FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:120px;
 }
-#content > div{
-    color:#FFFFFF;
-    overflow:hidden;
-    postition:absolute;
+.sm-col{
+    width:27%;
 }
-
-#marie{
-    margin-left:1.0vw;
-}
-#vinzons{
-    margin-left:1.0vw;
-}
-#comingsoon{
-    font-size:1.2vw;
-}
-#allcontent{
-    position:absolute;
-    /*transform:translate()*/
-}
-#content{
-    display:none;
-    font-family:'Raleway', sans-serif;
-    color:#FFFFFF;
-    height:auto;
-    width: auto;
+.med-col {
+    width:68%;
     padding:5px;
-    /*border:solid;*/
-    box-shadow: 5px -5px 2px #363636;
-    border-radius:5px;
-    position: fixed;
-    padding:10px 12px 0px 12px;
-    margin-top:auto;
-    margin-bottom:auto;
-    top:40%;
-    left:40%;
-    transform: translate(-50%, -50%);
-    float:right;
 }
-@media (max-width: 600px) {
-  .mid {
-    font-size: 30px;
-  }
-  #sidebar img{
-      width:30px;
-      height:30px;
-  }
+.content-title {
+    font-size:37px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 70px;
 }
-@media only screen and (max-device-width: 480) {
-  .mid {
-    font-size: 30px;
-  }
-  #sidebar img{
-      width:30px;
-      height:30px;
-  }
-  #sidebar{
-      display:none;
-      border-radius:0px;
-      height:100%;
-  }
+.content-subtitle {
+    font-size:25px;
+    font-family: 'OpenSans-Light', sans-serif;
 }
-/*Sidebar Content*/
-#sidebar img{
-    display:block;
-    padding:.5vw;
-    height:45px;
-    width:45px;
+.line {
+    width:150%;
+    height:3px;
+    /*background-color:white;*/
+    padding:10px;
+    display:inline-block;
+    margin-left:-100px;
+    float: left;
+    position:relative;
 }
-/*#imgcontainer{
+.line:after {
+    content:"";
     position:absolute;
-    bottom:0px;
-    width:auto;
-}*/
-#sidebar img:hover{
-    opacity:.2;
+    border-top:7px solid white;
+    width:100%;
 }
-#first{
-    margin-top:100%;
+.diagonal-top-right:after {
+    transform: rotate(-15deg);
+    transform-origin: 0% 0%;
+    -ms-transform: rotate(-15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Safari */
+    margin-top: 170px;
+
 }
-#sidebar > a{
-    overflow:hidden;
-    position:absolute;
+.diagonal-top-left:after {
+    transform: rotate(15deg);
+    transform-origin: 0% 0%;
+    -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Safari */
+    margin-top:-50px;
 }
 
-#sidebar{
-    height:60%;
-    opacity:.8;
-    width: auto;
-    background-color:#FFFFFF;
-    /*margin-top:50px;*/
-    padding:8px;
-    border-radius:200px;
-    position: fixed;
-    top: 2%;
-    left: 80%;
-    transform: translate(-10%, -10%);
-    float:right;
+/******SLIDE 4 #ICREATETHINGS*********/
+.slide4 {
+    /*background:  -webkit-linear-gradient(bottom, #F4DEA4 0%, #A9E9A3 53%, #A2E9C9 74%, #9AE9E1 100%);
+    background: -o-linear-gradient(bottom, #F4DEA4 0%, #A9E9A3 53%, #A2E9C9 74%, #9AE9E1 100%); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(bottom, #F4DEA4 0%, #A9E9A3 53%, #A2E9C9 74%, #9AE9E1 100%); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(bottom, #F4DEA4 0%, #A9E9A3 53%, #A2E9C9 74%, #9AE9E1 100%);*/
+    background:white;
+}
+.center {
+    text-align:center;
+}
+.top {
+    top:10px;
+}
+.bottom {
+    bottom:0px;
 }
