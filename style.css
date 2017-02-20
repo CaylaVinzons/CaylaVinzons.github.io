@@ -1,169 +1,261 @@
 *{
-    marign:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
 }
-/*********FONT AWESOME**************/
-.fa {
-    margin-left: 30px;
-    color:#252B7B;
+
+body {
+    font-family:'Montserrat-Thin',sans-serif;;
+    font-size:36px;
 }
-/*********GENERAL SLIDE STUFF**************/
-.slide-footer { /*only arrow*/
-    width:100%;
-    text-align: center;
-    position: absolute;
-    margin-bottom:100px;
-    margin-left:-30px;
-    bottom:0;
+@media only screen and (min-width: 1000px) {
+    body {
+        font-family:'Montserrat-Light',sans-serif;
+        font-size:18px;
+    }
 }
-.section {
+b {
+    font-family: 'Montserrat';
+}
+p {
     padding:30px;
 }
-.slide-title {
-    font-family: 'Montserrat-Light', sans-serif;
-    font-size:80px;
-    margin-bottom: 200px;
+/***********************WRAPPER***********************/
+.wrapper {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    clear:both;
+    text-align:center;
 }
-.right {
+/***********************NAVIGATION***********************/
+.mnav {
+    top:30px;
+    right:30px;
+    position:fixed;
+
+}
+.mnavicon {
+    position:absolute;
+    top:30px;
+    right:30px;
+}
+.mdropdown {
+    padding-left:50px;
+    padding-right:10px;
+    top:130px;
+    right:30px;
+    position:fixed;
+}
+.navul {
+    list-style: none;
     text-align: right;
 }
-/*********SLIDE 1: LANDING #YOUMADEIT**************/
-.slide1 {
-    background:url('assets/nebulas.svg'),url('assets/stars.svg'),black;
+.navli {
+    padding-top:40px;
 }
-.title {
-    font-family: 'Montserrat-Thin', sans-serif;
-    font-size:110px;
+.nav {
+    display:none;
+}
+#logo {
+    display:none;
+}
+@media only screen and (min-width:1000px) {
+    .mnav {
+        display:none;
+    }
+    .nav {
+        display: inline-block;
+        color:black;
+        text-decoration: none;
+        padding:20px;
+        float:right;
+        margin-top:15px;
+        margin-right: 30px;
+    }
+    .nav ul li {
+        float:right;
+        padding-left: 50px;
+        display: inline-block;
+        padding-top:0px;
+        text-decoration: none;
+        /*line-height: 100px;*/
+    }
+    .nav ul li a {
+        text-decoration: none;
+        display: block;
+    }
+    .nav ul li a:visited {
+        color:black;
+        text-decoration: none;
+    }
+    .nav ul li a:hover {
+        color:black;
+        text-decoration:underline;
+    }
+    .nav ul {
+        display: inline-block;
+        margin-right: 0px;
+    }
+    #logo {
+        height:50px;
+        width:50px;
+        margin-top: 15px;
+        margin-left: 15px;
+        display:inline-block;
+        position: relative;
+        float: left;
+        vertical-align:middle;
+    }
+    #logobg {
+        display: none;
+    }
+}
+/***********************COLORS***********************/
+.white {
     color:white;
 }
-.subtitle {
-    font-family: 'Open Sans', sans-serif;
-    font-size:35px;
-    text-align:right;
-    float:right;
-    margin-top:-200px;
-    margin-right:60px;
+.black {
+    color:black;
 }
-/*********SLIDE 2: INTRO #HIYAIMCAYLA**************/
-.slide2 {
-    background: linear-gradient(top, #C09AE9 0%, #9DCAE4 74%, #62BE9B 100%);
-    background: -webkit-linear-gradient(top, #C09AE9 0%, #9DCAE4 68%, #62BE9B 100%); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(top, #C09AE9 73%, #9DCAE4 36%, #62BE9B 3%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, #C09AE9 73%, #9DCAE4 36%, #62BE9B 3%); /* For Firefox 3.6 to 15 */
+.turquoise {
+    color:#67C7CF;
 }
-.whitesquare {
-    height:835px;
-    width:835px;
-    margin-left: auto;
-    margin-right: auto;
-    border:14px solid white;
-    padding:30px;
+.indigo {
+    color:#94A8E5;
 }
-.text {
-    font-size:40px;
-    margin-bottom: 72px;
-    font-family:"Montserrat-Light",sans-serif;
+.purple {
+    color:#9D8FDF;
 }
 .blue {
-    color:#252B7B;
+    color:#8DB8E9;
 }
-.white {
-    color:#FFFFFF;
-}
-.label {
-    text-align:center;
-    margin:-60px;
-    padding:0;
-    font-family: 'Open Sans', sans-serif;
-    font-size:200px;
-}
-.upside-down{
-    -ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
-}
-
-/***********SLIDE 3 #IDOTHINGS*************/
-.slide3 {
-    /* Path 10: */
-    background:  -webkit-linear-gradient(top, #FCEDED 0%, #C2E6F8 100%);
-    background: -o-linear-gradient(top, #C09AE9 73%, #9DCAE4 36%, #62BE9B 3%); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(top, #C09AE9 73%, #9DCAE4 36%, #62BE9B 3%); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(top, #41B2EA 0%, #F7C4C4 100%);
-}
-.grey {
-    color:#474747;
-}
-.col {
-    float:left;
-    margin-left: auto;
-    margin-right: auto;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top:120px;
-}
-.sm-col{
-    width:27%;
-}
-.med-col {
-    width:68%;
-    padding:5px;
-}
-.content-title {
-    font-size:37px;
-    font-family: 'Open Sans', sans-serif;
-    margin-bottom: 70px;
-}
-.content-subtitle {
-    font-size:25px;
-    font-family: 'OpenSans-Light', sans-serif;
-}
-.line {
-    width:150%;
-    height:3px;
-    /*background-color:white;*/
-    padding:10px;
-    display:inline-block;
-    margin-left:-100px;
-    float: left;
-    position:relative;
-}
-.line:after {
-    content:"";
-    position:absolute;
-    border-top:7px solid white;
+/***********************POSITIONING***********************/
+.fillwidth {
     width:100%;
 }
-.diagonal-top-right:after {
-    transform: rotate(-15deg);
-    transform-origin: 0% 0%;
-    -ms-transform: rotate(-15deg); /* IE 9 */
-    -webkit-transform: rotate(-15deg); /* Safari */
-    margin-top: 170px;
-
+.col-half {
+    width:100%;
+    float:left;
+}.col-third{
+    width:100%;
+    float:left;
 }
-.diagonal-top-left:after {
-    transform: rotate(15deg);
-    transform-origin: 0% 0%;
-    -ms-transform: rotate(15deg); /* IE 9 */
-    -webkit-transform: rotate(15deg); /* Safari */
-    margin-top:-50px;
-}
-
-/******SLIDE 4 #ICREATETHINGS*********/
-.slide4 {
-    /*background:  -webkit-linear-gradient(bottom, #F4DEA4 0%, #A9E9A3 53%, #A2E9C9 74%, #9AE9E1 100%);
-    background: -o-linear-gradient(bottom, #F4DEA4 0%, #A9E9A3 53%, #A2E9C9 74%, #9AE9E1 100%); /* For Opera 11.1 to 12.0 */
-    /*background: -moz-linear-gradient(bottom, #F4DEA4 0%, #A9E9A3 53%, #A2E9C9 74%, #9AE9E1 100%); /* For Firefox 3.6 to 15 */
-    /*background: linear-gradient(bottom, #F4DEA4 0%, #A9E9A3 53%, #A2E9C9 74%, #9AE9E1 100%);*/
-    background:white;
+.col-twothird {
+    width:100%;
+    float:left;
 }
 .center {
+    margin:0 auto;
+}
+.centerv {
+    margin-top:300px;
+}
+.onethirdv {
+    margin-top:300px;
+}
+.block {
+    display:block;
+}
+.inlineblock {
+    display: inline-block;
+}
+.left {
+    float:left;
+}
+.right {
+    float:right;
+}
+.desktop {
+    display: none;
+}
+@media only screen and (min-width: 1000px) {
+    .col-half {
+        width:43%;
+    }
+    .col-third {
+        width:26%;
+    }
+    .col-twothird {
+        width:65%;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+}
+/***********************TEXT MANIPULATING*****************/
+.centertext {
     text-align:center;
 }
-.top {
-    top:10px;
+.title {
+    font-size: 80px;
+    padding:20px;
 }
-.bottom {
-    bottom:0px;
+@media only screen and (min-width:1000px){
+    .title {
+        font-size: 50px;
+    }
+    .subtitle {
+        font-size: 30px;
+        font-family: 'Montserrat-Light',sans-serif;
+    }
+}
+.subtitle {
+    font-size:30px;
+}
+.listtitle {
+    font-size:90px;
+    padding:45px;
+}
+.description {
+    font-size:15px;
+}
+.open {
+    font-family: 'Open Sans - Light',sans-serif;
+}
+.open > b {
+    font-family: 'Open Sans - Regular', sans-serif;
+}
+#aboutdescription {
+    background: url('assets/logobg.svg') no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/***********************LISTS*****************************/
+ul {
+    list-style-type: none;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    color:black
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: underline;
+}
+.iconlist li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-left:15px;
+    padding-top:5px;
+    text-align:left;
+}
+.iconlist {
+}
+.workimage {
+    margin-top:150px;
 }

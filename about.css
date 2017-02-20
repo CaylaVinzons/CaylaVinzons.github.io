@@ -1,0 +1,6 @@
+/*.border {
+    border:14px solid;
+    -moz-border-image: -moz-linear-gradient(left, #B59BE2 0%, #DDDFF5 10%, #C2D9F3 40%, #98D2E9 85%, #70CBD4 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #B59BE2 0%, #DDDFF5 10%, #C2D9F3 40%, #98D2E9 85%, #70CBD4 100%);
+    border-image: linear-gradient(to right, #B59BE2 0%, #DDDFF5 10%, #C2D9F3 40%, #98D2E9 85%, #70CBD4 100%);
+}*/

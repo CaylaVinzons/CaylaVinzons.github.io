@@ -1,0 +1,32 @@
+/*********DESKTOP************/
+
+@media only screen and (min-width:1000px) {
+    body {
+        /*background-size:100%;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 0% -20%;*/
+    }
+    #workcontentmobile {
+        display:none;
+    }
+}
+
+.workbox {
+    display:table;
+    height:180px;
+    width:180px;
+    margin:5px;
+    background-size:cover;
+}
+
+.overlay {
+    display:table-cell;
+    vertical-align: middle;
+    background-color:black;
+    color:white;
+    height:100%;
+    width:100%;
+    opacity:0;
+}
