@@ -41,11 +41,16 @@ p {
     right:30px;
 }
 .mdropdown {
-    padding-left:50px;
-    padding-right:10px;
+    margin-top:30px;
+    margin-left:30px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 20px;
     top:130px;
     right:30px;
     position:fixed;
+    background-color:rgba(255,255,255,0.9);
+    border-radius:5px;
 }
 .navul {
     list-style: none;
