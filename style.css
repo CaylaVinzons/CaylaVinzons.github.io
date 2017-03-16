@@ -5,7 +5,7 @@
 
 body {
     font-family:'Montserrat-Thin',sans-serif;;
-    font-size:36px;
+    font-size:24px;
 }
 @media only screen and (min-width: 1000px) {
     body {
@@ -221,7 +221,7 @@ p {
     padding:45px;
 }
 .description {
-    font-size:15px;
+    font-size:35px;
 }
 .open {
     font-family: 'Open Sans - Light',sans-serif;
