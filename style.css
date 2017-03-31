@@ -204,6 +204,9 @@ p {
     font-size: 80px;
     padding:20px;
 }
+.description {
+    font-size:35px;
+}
 @media only screen and (min-width:1000px){
     .title {
         font-size: 50px;
@@ -212,6 +215,9 @@ p {
         font-size: 30px;
         font-family: 'Montserrat-Light',sans-serif;
     }
+    .description {
+        font-size:18px;
+    }
 }
 .subtitle {
     font-size:30px;
@@ -219,9 +225,6 @@ p {
 .listtitle {
     font-size:90px;
     padding:45px;
-}
-.description {
-    font-size:35px;
 }
 .open {
     font-family: 'Open Sans - Light',sans-serif;
