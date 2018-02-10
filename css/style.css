@@ -201,7 +201,7 @@ hr {
 	padding: 100px 0;
 	text-align: center;
 	color: #fff;
-	background: url(../intro-bg.jpg) no-repeat center top;
+	background: url("../intro-bg.jpg") no-repeat center top;
 	background-color: #5b9fdc
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
